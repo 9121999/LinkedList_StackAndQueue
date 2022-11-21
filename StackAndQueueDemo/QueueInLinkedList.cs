@@ -28,6 +28,18 @@ namespace QueueINLinkedList
                 Console.WriteLine("{0} inserted into Queue", node.data);
             }
         }
+        internal void Dequeue()
+        {
+            if (this.head == null)
+            {
+                Console.WriteLine("Queue is empty,Deletion is not possible");
+                return;
+            }
+            else
+            {
+                this.head = this.head.next;
+            }
+        }
         internal void Display()
         {
             Node temp = this.head;
