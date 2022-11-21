@@ -1,4 +1,6 @@
-﻿namespace StacksAndQueueDemo
+﻿using LinkedListDemo;
+
+namespace StacksAndQueueDemo
 {
     public  class Program
     {
@@ -8,6 +10,8 @@
             stacksLinkedList.Push(56);
             stacksLinkedList.Push(30);
             stacksLinkedList.Push(70);
+            stacksLinkedList.Peek();
+            stacksLinkedList.Pop();
             stacksLinkedList.Display();
         }
 
